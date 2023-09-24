@@ -71,18 +71,18 @@ const Navbar = () => {
                 >
                   About
                 </Link>
-                <a
-                  href="/Contact"
-                  className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                >
-                  Contact
-                </a>
-                <a
+                <Link
                   href="Proyect"
                   className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
                   Proyect
-                </a>
+                </Link>
+                <Link
+                  href="/Contact"
+                  className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </div>

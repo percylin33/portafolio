@@ -8,13 +8,12 @@ const About = () => {
 
       </div>
       <div className="w-1/2">
-        <h1 className=" p-8">Sobre mi experiencia academica </h1>
-        <p className=" p-8">Hola mi historia con la tecnologia comenzo en el 2018, en la univecidas tecnologia de Peru (UTP), 
-          hay conoci lenguajes de programacion como JAVA, HTML, css, PHP, JS y MySQL  los cuales despertaron 
-          en mi la pasion porla programacion, luego lamentablemete llego la pandemia y tube que posponer mis estudios 
-          , pero luego ingrese a bootcamp  HENRY donde estudiey  me comberti en un desarrollador web Full Stack 
-          donde puli mis abilidades con tecnologias de vanguardia tanto en el Front-end como en el Back-end  ademas base de datos SQL y no SQL 
-          lo cual me a dado un panorama mas amplio del mundo de la tecnologia y estoy deguro que en el futuro me llevara a por desafios mas grandes 
+        <h1 className="  pl-8">Sobre mi experiencia academica </h1>
+        <p className=" p-8">Mi historia con la tecnología comenzó en 2018, en la Universidad Tecnológica del Perú (UTP). Allí tuve la oportunidad de explorar diversos lenguajes de programación, como Java, HTML, CSS, PHP, JavaScript y MySQL. Estas experiencias despertaron en mí una pasión por la programación que no había sentido antes.
+
+Lamentablemente, la pandemia llegó y tuve que posponer mis estudios. Sin embargo, no me di por vencido. Ingresé a un bootcamp llamado HENRY, donde me sumergí en el mundo del desarrollo web Full Stack. Durante este período, perfeccioné mis habilidades en tecnologías de vanguardia tanto en el Front-end como en el Back-end. También adquirí conocimientos en bases de datos SQL y NoSQL, lo que me proporcionó una visión más completa del mundo de la tecnología.
+
+Estoy seguro de que estas experiencias me prepararán para enfrentar desafíos aún más grandes en el futuro.
                   </p>
 
       </div>
