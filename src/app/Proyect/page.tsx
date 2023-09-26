@@ -1,5 +1,10 @@
+
+import ImageCarousel from "@/components/Carrousel";
+
 const Proyect = () => {
-    return <div> Proyect</div>
+    return <div> 
+      <ImageCarousel  />
+      </div>
   };
   
   export default Proyect;
