@@ -37,6 +37,8 @@ const ImageCarousel = () => {
   };
 
   return (
+    <div>
+        <h1 className=' text-center'>skils</h1>
     <Slider {...settings} >
       <div >
         <Image src={js} alt="Imagen 1" />
@@ -87,6 +89,7 @@ const ImageCarousel = () => {
         <Image src={php} alt="Imagen 3" className='pt-5'/>
       </div>
     </Slider>
+    </div>
   );
 };
 
