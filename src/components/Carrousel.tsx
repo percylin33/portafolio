@@ -30,7 +30,7 @@ const ImageCarousel = () => {
     dots: true,
     infinite: true,
     autoplaySpeed: 2000,
-    slidesToShow:11,
+    slidesToShow:13,
     slidesToScroll: 1,
     autoplay:500,
     focusOnSelect:true
