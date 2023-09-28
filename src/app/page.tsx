@@ -26,7 +26,7 @@ const Home = () => {
     </div>
   </div>
     <div className="w-1/2  ">
-      <h1 className="text-5xl pb-10 pr-20 font-bold">Hola!! soy Percy Valderrama, Bienvenidos a mi Portafolio</h1>
+      <h1 className="text-5xl pb-10 pr-20 font-bold">Hola!! Soy Percy Valderrama, Bienvenidos a mi Portafolio</h1>
       <p className=" text-2xl pr-20 " >La creatividad es la chispa que da vida a mi trabajo. Cada proyecto es un lienzo en blanco donde puedo dar vida a mis ideas y expresar mi pasión por el diseño. Bienvenido a mi mundo creativo, donde cada detalle cuenta y cada pixel tiene un propósito. Explora mi portafolio y descubre cómo puedo ayudarte a dar vida a tus proyectos.</p>
     </div>
   </div>
