@@ -2,9 +2,15 @@ import Navbar from '@/components/Navbar'
 
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Dekko } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const dekko =  Dekko({
+  weight: '400', // Puedes ajustar estas opciones según tus necesidades
+  style: 'normal',
+  display: 'swap', 
+  subsets: ['latin'],// Por ejemplo, aquí se define 'display' como 'swap'
+  // Agrega otras opciones según sea necesario
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,7 +20,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={dekko.className}>
         <Navbar/>
         {children}
         
