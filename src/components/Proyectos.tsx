@@ -6,14 +6,14 @@ import link from "@/acces/link.png"
 
 const Proyectos = () => {
     return <div > 
-        <p className="text-center font-dekko text-2xl pt-4 font-bold ">Proyectos</p>
-      <div className="grid grid-cols-4 gap-8 p-8">
+        <p className="text-center  text-4xl pt-4  font-bold ">PROYECTOS</p>
+      <div className="grid grid-cols-4 gap-8 p-8 pt-4">
         <div className="bg-cyan-50 h-64 flex flex-col rounded-md shadow-xl hover:bg-cyan-100 hover:shadow-2xl hover:scale-105 transition duration-300 ">
-            <p className="text-center text-xl mx-auto py-2 font-serif ">Rick and Morty</p>
+            <p className="text-center text-xl mx-auto py-2 font-bold ">Rick and Morty</p>
             <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/fondo.jpg")' }}>    
             </div>
             <div className="p-1 ">
-              <p className="font-dekko text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
             <div className="flex justify-center bottom-0 pb-2 items-center  ">
