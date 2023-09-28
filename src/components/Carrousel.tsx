@@ -27,7 +27,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const ImageCarousel = () => {
   const settings:any = {
-    dots: true,
+    dots: false,
     infinite: true,
     autoplaySpeed: 2000,
     slidesToShow:13,
@@ -38,7 +38,7 @@ const ImageCarousel = () => {
 
   return (
     <div>
-        <h1 className=' text-center'>skils</h1>
+        <h1 className=' text-center font-dekko text-2xl pb-8 font-bold '>Skills</h1>
     <Slider {...settings} >
       <div >
         <Image src={js} alt="Imagen 1" />

@@ -17,6 +17,9 @@ const config: Config = {
         'custom': '#053B50',
         'hov': '#176B87',
       },
+      fontFamily: {
+        "dekko": ['Dekko', 'sans'],
+      },
     },
   },
   plugins: [],
