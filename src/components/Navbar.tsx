@@ -69,19 +69,19 @@ const Navbar = () => {
                   className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   aria-current="page"
                 >
-                  About
+                 <p className="font-bold">About</p> 
                 </Link>
                 <Link
                   href="Proyect"
                   className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
-                  Proyect
+                  <p className="font-bold">Proyect</p> 
                 </Link>
                 <Link
                   href="/Contact"
                   className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
-                  Contact
+                  <p className="font-bold">Contact</p> 
                 </Link>
               </div>
             </div>

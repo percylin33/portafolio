@@ -16,6 +16,7 @@ const config: Config = {
       backgroundColor: {
         'custom': '#053B50',
         'hov': '#176B87',
+        'fondo': '#176B87',
       },
       fontFamily: {
         "dekko": ['Dekko', 'sans'],

@@ -6,7 +6,7 @@ import link from "@/acces/link.png"
 
 const Proyectos = () => {
     return <div > 
-        <p className="text-center  text-4xl pt-4  font-bold ">PROYECTOS</p>
+        <p className="text-center  text-4xl pt-4  font-bold ">Proyectos</p>
       <div className="grid grid-cols-4 gap-8 p-8 pt-4">
         <div className="bg-cyan-50 h-64 flex flex-col rounded-md shadow-xl hover:bg-cyan-100 hover:shadow-2xl hover:scale-105 transition duration-300 ">
             <p className="text-center text-xl mx-auto py-2 font-bold ">Rick and Morty</p>
@@ -27,8 +27,8 @@ const Proyectos = () => {
         </div>
 
         <div className="bg-cyan-50 h-64 flex flex-col rounded-md shadow-xl hover:bg-cyan-100 hover:shadow-2xl hover:scale-105 transition duration-300 ">
-            <p className="text-center text-xl mx-auto py-2 font-bold ">Rick and Morty</p>
-            <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/fondo.jpg")' }}>    
+            <p className="text-center text-xl mx-auto py-2 font-bold ">Pokedex</p>
+            <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/pokemon.png")' }}>    
             </div>
             <div className="p-1 ">
               <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -45,8 +45,8 @@ const Proyectos = () => {
         </div>
 
         <div className="bg-cyan-50 h-64 flex flex-col rounded-md shadow-xl hover:bg-cyan-100 hover:shadow-2xl hover:scale-105 transition duration-300 ">
-            <p className="text-center text-xl mx-auto py-2 font-bold ">Rick and Morty</p>
-            <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/fondo.jpg")' }}>    
+            <p className="text-center text-xl mx-auto py-2 font-bold ">Parcels</p>
+            <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/logoIcon.png")' }}>    
             </div>
             <div className="p-1 ">
               <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -63,8 +63,8 @@ const Proyectos = () => {
         </div>
 
         <div className="bg-cyan-50 h-64 flex flex-col rounded-md shadow-xl hover:bg-cyan-100 hover:shadow-2xl hover:scale-105 transition duration-300 ">
-            <p className="text-center text-xl mx-auto py-2 font-bold ">Rick and Morty</p>
-            <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/fondo.jpg")' }}>    
+            <p className="text-center text-xl mx-auto py-2 font-bold ">Portafolio</p>
+            <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/logo-personal.png")' }}>    
             </div>
             <div className="p-1 ">
               <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

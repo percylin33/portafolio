@@ -2,9 +2,9 @@ import Navbar from '@/components/Navbar'
 
 import './globals.css'
 import type { Metadata } from 'next'
-import { Dekko } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 
-const dekko =  Dekko({
+const dekko =  Montserrat({
   weight: '400', // Puedes ajustar estas opciones según tus necesidades
   style: 'normal',
   display: 'swap', 

@@ -38,7 +38,7 @@ const ImageCarousel = () => {
 
   return (
     <div>
-        <h1 className=' text-center font-dekko text-2xl pb-8 font-bold '>Skills</h1>
+        <h1 className=' text-center text-4xl pb-6 font-bold '>Skills</h1>
     <Slider {...settings} >
       <div >
         <Image src={js} alt="Imagen 1" />
