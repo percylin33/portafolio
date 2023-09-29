@@ -72,10 +72,16 @@ const Navbar = () => {
                  <p className="font-bold">About</p> 
                 </Link>
                 <Link
-                  href="Proyect"
+                  href="/Skills"
                   className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
-                  <p className="font-bold">Proyect</p> 
+                  <p className="font-bold">Skills</p> 
+                </Link>
+                <Link
+                  href="/Proyect"
+                  className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                >
+                  <p className="font-bold">Project</p> 
                 </Link>
                 <Link
                   href="/Contact"
