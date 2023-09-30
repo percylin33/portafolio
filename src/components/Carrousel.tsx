@@ -1,5 +1,5 @@
 "use client"
-import Link from 'next/link';
+
  import Image from 'next/image';
  import node from "@/acces/tecnologias/node.png";
 import css from "@/acces/tecnologias/css.png";
@@ -20,26 +20,16 @@ import css from "@/acces/tecnologias/css.png";
  import ts from "@/acces/tecnologias/ts.png";
 
 import React from 'react';
-import Slider from 'react-slick';
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 
 const ImageCarousel = () => {
-  const settings:any = {
-    dots: false,
-    infinite: true,
-    autoplaySpeed: 2000,
-    slidesToShow:13,
-    slidesToScroll: 1,
-    autoplay:500,
-    focusOnSelect:true
-  };
+ 
 
   return (
     <div>
-        <h1 className=' text-center text-4xl pb-6 font-bold '>Skills</h1>
-    <Slider {...settings} >
+        <h1 className=' text-center text-4xl py-8 font-bold '>Skills</h1>
+    <div className="grid grid-cols-8 gap-6 p-10  ">
       <div >
         <Image src={js} alt="Imagen 1" />
       </div>
@@ -50,7 +40,7 @@ const ImageCarousel = () => {
         <Image src={redux} alt="Imagen 3" />
       </div>
       <div>
-        <Image src={node} alt="Imagen 1" className='pt-5'/>
+        <Image src={node} alt="Imagen 1" />
       </div>
       <div>
         <Image src={postgres} alt="Imagen 2" />
@@ -65,19 +55,19 @@ const ImageCarousel = () => {
         <Image src={mongo} alt="Imagen 1" />
       </div>
       <div>
-        <Image src={next} alt="Imagen 2" className='p-5 pt-10' />
+        <Image src={next} alt="Imagen 2" />
       </div>
       <div>
         <Image src={scrum} alt="Imagen 3" />
       </div>
       <div>
-        <Image src={sql} alt="Imagen 1" className='px-5 pt-8'  />
+        <Image src={sql} alt="Imagen 1"/>
       </div>
       <div>
-        <Image src={tail} alt="Imagen 2" className='pt-5 px-5'/>
+        <Image src={tail} alt="Imagen 2"/>
       </div>
       <div>
-        <Image src={tool} alt="Imagen 3" className='pt-5 '/>
+        <Image src={tool} alt="Imagen 3"/>
       </div>
       <div>
         <Image src={ts} alt="Imagen 3" />
@@ -86,9 +76,9 @@ const ImageCarousel = () => {
         <Image src={java} alt="Imagen 3" />
       </div>
       <div>
-        <Image src={php} alt="Imagen 3" className='pt-5'/>
+        <Image src={php} alt="Imagen 3"/>
       </div>
-    </Slider>
+    </div>
     </div>
   );
 };
