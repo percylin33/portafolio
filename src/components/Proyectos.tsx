@@ -13,7 +13,7 @@ const Proyectos = () => {
             <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/fondo.jpg")' }}>    
             </div>
             <div className="p-1 ">
-              <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p className="font-medium ">Proyecto donde aplico mis habilidades en React, CSS, Redux, Express y Postgresql.</p>
             </div>
 
             <div className="flex justify-center bottom-0 pb-2 items-center  ">
@@ -31,11 +31,11 @@ const Proyectos = () => {
             <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/pokemon.png")' }}>    
             </div>
             <div className="p-1 ">
-              <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p className="font-medium ">App donde implementé diversos filtros y operaciones CRUD aplicando con JS, React, Redux, Express, Node.js, Postgresql.</p>
             </div>
 
             <div className="flex justify-center bottom-0 pb-2 items-center  ">
-                <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
+                <a href="https://github.com/percylin33/PI-POKEMON" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
                   <Image src={github} alt="link" className="w-auto"/>
                 </a>
                 <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
@@ -49,14 +49,14 @@ const Proyectos = () => {
             <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/logoIcon.png")' }}>    
             </div>
             <div className="p-1 ">
-              <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p className="font-medium ">Proyecto grupal ecommerce inmobiliario con Pasarelas de pago · React.js, Node.js, MongoDB, Next.js, Tailwind-CSS y TypeScript.</p>
             </div>
 
             <div className="flex justify-center bottom-0 pb-2 items-center  ">
-                <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
+                <a href="https://github.com/LucasRibotta/Project-Parcels" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
                   <Image src={github} alt="link" className="w-auto"/>
                 </a>
-                <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
+                <a href="https://parcelas.vercel.app/" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
                   <Image src={link} alt="link" className="w-full"/>
                 </a>
             </div>
@@ -67,14 +67,14 @@ const Proyectos = () => {
             <div  className="grow relative bg-cover bg-center opacity-80 mx-2 rounded-md" style={{ backgroundImage: 'url("/imagenes/logo-personal.png")' }}>    
             </div>
             <div className="p-1 ">
-              <p className="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p className="font-medium ">Proyecto donde utilizo mis habilidades en TypeScript, Next, Tailwind-CSS y React</p>
             </div>
 
             <div className="flex justify-center bottom-0 pb-2 items-center  ">
-                <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
+                <a href="https://github.com/percylin33/portafolio" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
                   <Image src={github} alt="link" className="w-auto"/>
                 </a>
-                <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
+                <a href="https://portafolio-pied-six.vercel.app/" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
                   <Image src={link} alt="link" className="w-full"/>
                 </a>
             </div>
