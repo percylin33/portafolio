@@ -7,7 +7,7 @@ const About = () => {
         <Image src={about} alt="foto about" className="w-4/5 h-auto rounded-lg  "/>
 
       </div>
-      <div className="w-full md:w-3/5 md:pr-4 ">
+      <div className="w-full p-2 md:w-3/5 md:pr-4 ">
         <p className="  pl-4  text-4xl font-bold ">Experiencia Academica </p>
         
         <p className="p-4 text-lg">
