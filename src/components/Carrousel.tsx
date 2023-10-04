@@ -28,19 +28,19 @@ const ImageCarousel = () => {
 
   return (
     <div>
-        <h1 className=' text-center text-4xl py-8 font-bold '>Skills</h1>
-    <div className="grid grid-cols-8 gap-6 p-10  ">
+        <h1 className=' text-center text-2xl py-8 font-bold md:text-4xl'>Skills</h1>
+    <div className="grid grid-cols-2  gap-6 p-10 md:grid-cols-3  lg:grid-cols-8">
       <div >
-        <Image src={js} alt="Imagen 1" />
+        <Image src={js} alt="Imagen JS" />
       </div>
       <div>
-        <Image src={react} alt="Imagen 2" />
+        <Image src={react} alt="Imagen React" />
       </div>
       <div>
-        <Image src={redux} alt="Imagen 3" />
+        <Image src={redux} alt="Imagen redux" />
       </div>
       <div>
-        <Image src={node} alt="Imagen 1" />
+        <Image src={node} alt="Imagen node" />
       </div>
       <div>
         <Image src={postgres} alt="Imagen 2" />
