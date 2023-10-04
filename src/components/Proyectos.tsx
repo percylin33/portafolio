@@ -5,7 +5,7 @@ import link from "@/acces/link.png"
 
 
 const Proyectos = () => {
-    return <div > 
+    return <div className="bg-gray-100"> 
         <p className="text-center  text-4xl p-10  font-bold ">Proyectos</p>
       <div className="grid grid-cols-1 gap-8 p-8 pt-4 md:grid-cols-3 lg:grid-cols-4">
         <div className="bg-cyan-50 h-64 flex flex-col rounded-md shadow-xl hover:bg-cyan-100 hover:shadow-2xl hover:scale-105 transition duration-300 ">
