@@ -2,7 +2,7 @@ import Image from "next/image";
 import about from "@/acces/about.jpeg"
 
 const About = () => {
-    return <div className="bg-gray-100  items-center h-full w-screen md:flex xl:h-[calc(100vh-4rem)]"> 
+    return <div className="bg-gray-100  items-center h-full w-screen md:flex md:h-[calc(100vh-4rem)]"> 
       <div className="w-full flex justify-center py-8         md:w-2/5 ">
         <Image src={about} alt="foto about" className="w-4/5 h-auto rounded-lg  "/>
 
