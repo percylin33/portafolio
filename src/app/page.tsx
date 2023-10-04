@@ -26,7 +26,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="bg-gray-100  items-center h-full w-screen lg:h-[calc(100vh-4rem)] lg:flex ">
+    <div className="bg-gray-100  items-center  w-screen h-screen lg:h-[calc(100vh-4rem)] lg:flex ">
       <div className="pb-10 w-full pt-4 lg:w-1/2">
         <div className="bg-fondo flex justify-center w-[60%] mx-auto text-center rounded-lg ">
           <Image src={photos[currentPhotoIndex]} alt="my photo" className={`rounded-lg h-64 sm:h-96 w-80 m-auto text-center transition-opacity ${fadeOut ? "opacity-0" : "opacity-100"}` } />
