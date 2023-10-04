@@ -57,7 +57,7 @@ const Formulario = () => {
         <input
           id="name"
           type="text"
-          className="border border-gray-300 rounded-md py-2 px-3 w-[60%]"
+          className="border border-gray-300 rounded-md py-2 px-3 w-full md:w-[60%]"
           placeholder="Nombre"
           value={name}
           onChange={handleNameChange}
@@ -68,7 +68,7 @@ const Formulario = () => {
         <input
           id="email"
           type="email"
-          className="border border-gray-300 rounded-md py-2 px-3 w-[60%]"
+          className="border border-gray-300 rounded-md py-2 px-3 w-full md:w-[60%]"
           placeholder="Correo electrónico"
           value={email}
           onChange={handleEmailChange}
@@ -94,7 +94,7 @@ const Formulario = () => {
       </div>
     </form>
   </div>
-  <div className="w-[90%] m-auto pt-8 lg:w-2/5 lg:p-8">
+  <div className="w-[90%] m-auto py-8 lg:w-2/5 lg:p-8">
   <div className="items-center mb-4">
     <a href="www.linkedin.com/in/percy-valderrama-5a3244274" className="flex">
     <Image
