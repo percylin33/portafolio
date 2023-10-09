@@ -84,6 +84,12 @@ const Navbar = () => {
                   <p className="font-bold">Projects</p> 
                 </Link>
                 <Link
+                  href="/Experience"
+                  className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                >
+                  <p className="font-bold">Experience</p> 
+                </Link>
+                <Link
                   href="/Contact"
                   className="text-gray-300 hover:bg-hov hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                 >
@@ -117,6 +123,12 @@ const Navbar = () => {
             className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Projects
+          </Link>
+          <Link
+            href="/Experience"
+            className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+          >
+            Experience
           </Link>
           <Link
             href="/Contact"
