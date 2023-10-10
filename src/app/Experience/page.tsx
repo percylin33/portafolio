@@ -19,12 +19,12 @@ const Experience = () => {
     }
   };
 
-  return <div className="bg-gray-100 h-full w-screen md:h-[calc(100vh-4rem)] flex justify-center items-center">
+  return <div className="bg-gray-100  w-screen h-[calc(100vh-4rem)] flex justify-center items-center">
   <div className="justify-center items-center">
-    <h2 className="text-center p-8 font-bold text-2xl">Certificados</h2>
+    <h2 className="text-center p-8 font-bold text-4xl">Certificados</h2>
     <div className=" w-[80%] m-auto space-y-4 justify-center items-center md:flex md:space-x-4 md:space-y-0 ">
       <div
-        className={`cursor-pointer ${
+        className={`cursor-pointer py-4 md:py-0  ${
           isImage2Large ? "md:w-[70%] md:h-[70%]" : "md:w-[40%] md:h-[40%]"
         }`}
         onClick={() => toggleImageSize(2)}
@@ -36,7 +36,7 @@ const Experience = () => {
         />
       </div>
       <div
-        className={`cursor-pointer ${
+        className={`cursor-pointer py-4 md:py-0 ${
           isImage1Large ? "md:w-[70%] md:h-[70%]" : "md:w-[40%] md:h-[40%]"
         }`}
         onClick={() => toggleImageSize(1)}
