@@ -10,8 +10,9 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'open-menu': "url('/imagenes/menu.png')",
+        'close-menu': "url('/imagenes/cerrar.png')"
       },
       backgroundColor: {
         'custom': '#053B50',
@@ -21,6 +22,7 @@ const config: Config = {
       fontFamily: {
         "dekko": ['Dekko', 'sans'],
       },
+
     },
   },
   plugins: [],
