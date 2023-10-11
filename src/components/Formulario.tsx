@@ -96,13 +96,13 @@ const Formulario = () => {
   </div>
   <div className="w-[90%] m-auto py-8 lg:w-2/5 lg:p-8">
   <div className="items-center mb-4">
-    <a href="www.linkedin.com/in/percy-valderrama-5a3244274" className="flex">
+    <a href="https://www.linkedin.com/in/percy-valderrama-develomper" className="flex">
     <Image
       src={linken}
       alt="Descripción de la imagen 1"
       className="w-6 h-6 mr-2"
     />
-    <span>www.linkedin.com/in/percy-valderrama-5a3244274</span>
+    <span>www.linkedin.com/in/percy-valderrama-developer</span>
     </a>
   </div>
   
