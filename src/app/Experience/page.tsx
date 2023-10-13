@@ -21,7 +21,7 @@ const Experience = () => {
 
   return <div className="bg-gray-100  w-screen h-[calc(100vh-4rem)] flex justify-center items-center">
   <div className="justify-center items-center">
-    <h2 className="text-center p-8 font-bold text-4xl">Certificados</h2>
+    <h2 className="text-center p-8 font-bold font-secular text-4xl">Certificados</h2>
     <div className=" w-[80%] m-auto space-y-4 justify-center items-center md:flex md:space-x-4 md:space-y-0 ">
       <div
         className={`cursor-pointer py-4 md:py-0  ${
@@ -32,7 +32,7 @@ const Experience = () => {
         <Image
           src={imageT} // Reemplaza con la ruta de tu segunda imagen
           alt="Image 2"
-          className="w-full h-full object-cover rounded-lg md:w-[70%]"
+          className="w-full h-full object-cover shadow-lg rounded-lg md:w-[70%]"
         />
       </div>
       <div
@@ -44,7 +44,7 @@ const Experience = () => {
         <Image
           src={imageF} // Reemplaza con la ruta de tu primera imagen
           alt="Image 1"
-          className="w-full h-full object-cover rounded-lg"
+          className="w-full h-full object-cover  shadow-lg rounded-lg"
         />
       </div>
     </div>

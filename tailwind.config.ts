@@ -20,7 +20,7 @@ const config: Config = {
         'fondo': '#176B87',
       },
       fontFamily: {
-        "dekko": ['Dekko', 'sans'],
+        "secular": ['var(--font-secular)'],
       },
 
     },

@@ -151,7 +151,7 @@ const Formulario = () => {
   
   <div className="flex justify-center items-cente pt-10 ">
       <a href="/pdfs/PDFcurriculum.pdf" download className="bg-custom text-white font-bold py-2 px-4 rounded hover:bg-cyan-800">
-        Descargar CV
+        Descargar mi CV
       </a>
   </div>
   </div>

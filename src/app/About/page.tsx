@@ -8,7 +8,7 @@ const About = () => {
 
       </div>
       <div className="w-full p-2 lg:w-3/5 lg:pr-4 ">
-        <p className="  pl-4  text-4xl font-bold ">Experiencia Academica </p>
+        <p className="  pl-4  text-4xl font-bold font-secular">Experiencia Academica </p>
         
         <p className="p-4 text-lg">
           Mi historia con la tecnología comenzó en 2018, en la <strong>Universidad Tecnológica del Perú (UTP)</strong>. Allí tuve la oportunidad de explorar diversos lenguajes de programación como <strong>JAVA, HTML, CSS, PHP, JavaScript y MySQL</strong>. 😊 Estas experiencias despertaron en mí una pasión por la programación que no había sentido antes.
