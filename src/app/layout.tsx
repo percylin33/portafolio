@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   title: 'Portafolio Percy-Valderrama',
   description: 'Hecho por Percy Valderrama',
   icons:{
-    icon:['/favicon.icon?v=4', '/android-chrome-192x192.png', '/android-chrome-512x512.png'],
+    icon:['/favicon.icon?v=4'],
     apple:['/apple-touch-icon.png?=4'],
-    shortcut:['/apple-touch-icon.png']
+    shortcut:['/android-chrome-512x512.png']
   }
 }
 
