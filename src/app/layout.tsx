@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   icons:{
     icon:['/favicon.icon?v=4'],
     apple:['/apple-touch-icon.png?=4'],
-    shortcut:['/android-chrome-512x512.png']
+    shortcut:['/android-chrome-192x192.png?=4']
   }
 }
 
