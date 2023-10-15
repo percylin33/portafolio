@@ -24,7 +24,7 @@ const Formulario = () => {
       message: message,
     };
 
-    await fetch("http://localhost:3000/api/mail", {
+    await fetch("/api/mail", {
       method: "POST",
       body: JSON.stringify(data),
     });
