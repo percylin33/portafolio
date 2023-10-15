@@ -20,7 +20,7 @@ const Proyectos = () => {
                 <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
                   <Image src={github} alt="link" className="w-auto"/>
                 </a>
-                <a href="https://github.com/percylin33/app_Rick_and_morty" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
+                <a href="https://app-rick-and-morty-nm2s.vercel.app/" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
                   <Image src={link} alt="link" className="w-full"/>
                 </a>
             </div>
