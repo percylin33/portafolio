@@ -49,7 +49,7 @@ const Formulario = () => {
 
   return (
 <div className="bg-gray-100 p-8  h-full lg:flex ">
-  <div className="bg-cyan-100 p-8 rounded-lg shadow-lg w-[90%] m-auto lg:w-3/5  " >
+  <div className="bg-cyan-100 p-8 my-8 rounded-lg shadow-lg w-[90%] m-auto lg:w-3/5  " >
     <h1 className="text-2xl font-semibold mb-4">Escribeme</h1>
     <form onSubmit={onSubmit}>
       <div className="mb-4">
@@ -94,7 +94,7 @@ const Formulario = () => {
       </div>
     </form>
   </div>
-  <div className="w-[90%] m-auto py-8 lg:w-2/5 lg:p-8">
+  <div className="w-[90%] m-auto py-8 my-8 lg:w-2/5 lg:p-8">
   <div className="items-center mb-4">
     <a href="https://www.linkedin.com/in/percy-valderrama-develomper" className="flex">
     <Image
@@ -149,7 +149,7 @@ const Formulario = () => {
     </div>
   </div>
   
-  <div className="flex justify-center items-cente pt-10 ">
+  <div className="flex justify-center items-cente py-10 ">
       <a href="/pdfs/PDFcurriculum.pdf" download className="bg-custom text-white font-bold py-2 px-4 rounded hover:bg-cyan-800">
         Descargar mi CV
       </a>
