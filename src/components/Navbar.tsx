@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className="bg-custom w-screen relative">
       <div className={`bg-custom shadow-md w-full top-0 left-0 relative z-40`}>
         <div className="md:flex  items-center justify-between  relative z-40 ">
-          <div className="flex  items-center pl-10">
+          <div className="flex  items-center ">
             <Link href="/" rel="preload">
               <Image className="h-20 w-auto" src={logo} alt="Your Company" />
             </Link>
