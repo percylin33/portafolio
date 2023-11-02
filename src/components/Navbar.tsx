@@ -34,7 +34,7 @@ const Navbar = () => {
             {open ? <IoCloseCircleSharp /> : <IoMenu />}
           </div>
           
-      <ul className={`bg-custom md:flex md:items-center md:pb-0 pb-12 md:pr-10 absolute md:static left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'left-0 opacity-100 z-20' : 'left-full md:opacity-100 opacity-0 z-10'}`}>
+      <ul className={`bg-custom md:flex md:items-center md:pb-0 pb-12 md:pr-10 absolute md:static left-0 w-screen md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'left-0 opacity-100 z-20' : 'left-screen md:opacity-100 opacity-0 z-10'}`}>
         {linkNav.map((li) => (
           <li key={li.name} className="md:ml-8 text-xl md:my-0 my-7" onClick={closeMenu}>
             <Link href={li.link} className="text-white font-medium hover:text-gray-400 duration-500">
