@@ -37,7 +37,7 @@ console.log(pathname);
             {open ? <IoCloseCircleSharp /> : <IoMenu />}
           </div>
           
-      <ul className={`bg-custom md:flex md:items-center  md:pb-0 pb-12 md:pr-10 absolute md:static left-0 w-screen md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'left-0 opacity-100 z-20' : 'left-screen md:opacity-100 opacity-0 z-10'}`}>
+      <ul className={`bg-custom md:flex md:items-center  md:pb-0 pb-12 md:pr-10 absolute md:static left-0 w-screen md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'left-0 opacity-100 ' : 'left-screen md:opacity-100 opacity-0  hidden'}`}>
         {linkNav.map((li) => (
           <Link href={li.link} className={`text-white font-semibold hover:text-cyan-300 duration-500  `}>
               <li key={li.name} className={`md:ml-8 text-xl md:my-0 text-center my-7 ${pathname === li.link ? "bg-cyan-800 p-1 rounded-xl " : " " }`} onClick={closeMenu}> {li.name}</li>   
