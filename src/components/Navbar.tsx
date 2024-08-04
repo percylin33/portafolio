@@ -10,11 +10,11 @@ import {usePathname} from "next/navigation"
 const Navbar = () => {
   const pathname = usePathname()
   const linkNav = [
-    { name: "About", link: "/About" },
-    { name: "Skills", link: "/Skills" },
-    { name: "Projects", link: "/Proyect" },
-    { name: "Experience", link: "/Experience" },
-    { name: "Contact", link: "/Contact" },
+    { id: 1, name: "About", link: "/About" },
+    { id: 2, name: "Skills", link: "/Skills" },
+    { id: 3, name: "Projects", link: "/Proyect" },
+    { id: 4, name: "Experience", link: "/Experience" },
+    { id: 5, name: "Contact", link: "/Contact" },
   ];
 
   const [open, setOpen] = useState(false);

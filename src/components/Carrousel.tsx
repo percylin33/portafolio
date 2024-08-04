@@ -20,6 +20,12 @@
  import ts from "@/acces/tecnologias/ts.png";
  import docker from "@/acces/tecnologias/docker.png";
  import aws from "@/acces/tecnologias/aws.png";
+ import spring from "@/acces/tecnologias/spring-boot.png";
+ import security from "@/acces/tecnologias/spring-security-logo.png";
+ import kafka from "@/acces/tecnologias/pngwing.com.png";
+ import angular from "@/acces/tecnologias/pngwing.com (1).png";
+ import redis from "@/acces/tecnologias/redis.com.png";
+ import server from "@/acces/tecnologias/server-sql.png";
 
 import React from 'react';
 
@@ -42,6 +48,14 @@ const tecnologias = [
   { id: 16, name: 'TS', image: ts },
   { id: 17, name: 'Docker', image: docker },
   { id: 18, name: 'AWS', image: aws },
+  { id: 19, name: 'spring', image: spring },
+  { id: 20, name: 'security', image: security },
+  { id: 21, name: 'kafka', image: kafka },
+  { id: 22, name: 'angular', image: angular },
+  { id: 23, name: 'redis', image: redis },
+  { id: 24, name: 'sql', image: server },
+  { id: 25, name: 'redis', image: redis },
+  { id: 26, name: 'redis', image: redis },
 ]
 
 const ImageCarousel = () => {
