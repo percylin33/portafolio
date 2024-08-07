@@ -18,7 +18,7 @@ const Proyectos = () => {
             </div>
 
             <div className="flex justify-center bottom-0 pb-2 items-center  ">
-                <a href="https://github.com/percylin33/cuso-next" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
+                <a href="https://github.com/percylin33" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300 ">
                   <Image src={github} alt="link" className="w-auto"/>
                 </a>
                 <a href="https://gateway-dev.inclub.world/backoffice/profile/partner" target="_blank" rel="noopener noreferrer " className=" w-6 mx-auto hover:scale-110 transition duration-300" >
@@ -116,7 +116,7 @@ const Proyectos = () => {
                 </a>
             </div>
         </div>
-        
+
       </div>
     </div>
   };
