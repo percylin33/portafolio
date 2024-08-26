@@ -26,6 +26,7 @@
  import angular from "@/acces/tecnologias/pngwing.com (1).png";
  import redis from "@/acces/tecnologias/redis.com.png";
  import server from "@/acces/tecnologias/server-sql.png";
+ import notion from "@/acces/tecnologias/notion.png"
 
 import React from 'react';
 
@@ -54,8 +55,8 @@ const tecnologias = [
   { id: 22, name: 'angular', image: angular },
   { id: 23, name: 'redis', image: redis },
   { id: 24, name: 'sql', image: server },
-  { id: 25, name: 'redis', image: redis },
-  { id: 26, name: 'redis', image: redis },
+  { id: 26, name: 'notion', image: notion },
+
 ]
 
 const ImageCarousel = () => {
